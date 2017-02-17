@@ -30,7 +30,7 @@ public class ChatArrayAdapter extends ArrayAdapter<ChatModel> {
         View v = inflater.inflate(R.layout.chat_listview, parent, false);
 
         TextView content = (TextView) v.findViewById(R.id.content);
-        content.setText(getItem(position).getContent());
+        content.setText(getItem(position).getText());
 
         return v;
     }

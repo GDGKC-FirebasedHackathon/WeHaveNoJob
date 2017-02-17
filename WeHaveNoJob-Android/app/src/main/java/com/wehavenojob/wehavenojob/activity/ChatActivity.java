@@ -34,9 +34,9 @@ public class ChatActivity extends BaseActivity {
         mAdapter = new ChatArrayAdapter(this, R.layout.chat_listview, mChatModels);
         mMessageListView.setAdapter(mAdapter);
 
-        mMessageSend.setOnClickListener(v -> databaseReference.child("message").child("960628").push().setValue(new ChatModel(mMessageInput.getText().toString())));
+        mMessageSend.setOnClickListener(v -> databaseReference.child("channels").child("lecture1").child("messages").push().setValue(new ChatModel(mMessageInput.getText().toString(), "", "")));
 
-        databaseReference.child("message").child("960628").addChildEventListener(new ChildEventListener() {
+        databaseReference.child("channels").child("lecture1").child("messages").addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
                 ChatModel chatModel = dataSnapshot.getValue(ChatModel.class);

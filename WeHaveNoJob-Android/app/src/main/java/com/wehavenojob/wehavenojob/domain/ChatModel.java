@@ -8,20 +8,28 @@ import lombok.Getter;
  */
 
 public class ChatModel {
-    private String content;
+    private String text;
+    private String senderId;
+    private String senderName;
 
     public ChatModel() {
     }
 
-    public ChatModel(String content) {
-        this.content = content;
+    public ChatModel(String text, String senderId, String senderName) {
+        this.text = text;
+        this.senderId = senderId;
+        this.senderName = senderName;
     }
 
-    public String getContent() {
-        return content;
+    public String getText() {
+        return text;
     }
 
-    public void setContent(String content) {
-        this.content = content;
+    public String getSenderId() {
+        return senderId;
+    }
+
+    public String getSenderName() {
+        return senderName;
     }
 }
