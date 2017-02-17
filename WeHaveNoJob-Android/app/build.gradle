@@ -1,5 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'me.tatarka.retrolambda'
+apply plugin: 'com.neenbedankt.android-apt'
 
 android {
     compileSdkVersion 25
@@ -18,6 +19,17 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+
+    }
+    productFlavors {
+        legacy {
+            minSdkVersion 9
+            versionCode 901  // Min API level 9, v01
+        }
+        current {
+            minSdkVersion 14
+            versionCode 1401  // Min API level 14, v01
+        }
     }
 
     compileOptions {
@@ -26,13 +38,36 @@ android {
     }
 }
 
+ext {
+    JUNIT_VERSION = '4.12'
+    DAGGER_VERSION ='2.4'
+}
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+
     compile 'com.android.support:appcompat-v7:25.1.1'
+
+    // Firebase
     compile 'com.google.firebase:firebase-database:10.2.0'
+    compile 'com.google.firebase:firebase-auth:10.2.0'
+    compile 'com.google.android.gms:play-services-auth:10.2.0'
+    compile 'com.google.firebase:firebase-core:10.2.0'
+
+    // Lombok
+    provided "org.projectlombok:lombok:1.16.6"
+    provided 'org.glassfish:javax.annotation:10.0-b28'
+
+    // Dagger 2
+    compile 'com.google.dagger:dagger:2.4'
+    apt "com.google.dagger:dagger-compiler:2.4"
+    provided 'javax.annotation:jsr250-api:1.0'
+    compile 'javax.inject:javax.inject:1'
+    testApt "com.google.dagger:dagger-compiler:2.4"
+
     testCompile 'junit:junit:4.12'
 }
 
