@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		4407350A9571067FB983A58B /* Pods_WeHaveNoJob_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1144B04AF17391FAC1373932 /* Pods_WeHaveNoJob_iOS.framework */; };
 		B50A85AA1E57058B0068FF55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A85A91E57058B0068FF55 /* AppDelegate.swift */; };
-		B50A85AC1E57058B0068FF55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A85AB1E57058B0068FF55 /* ViewController.swift */; };
+		B50A85AC1E57058B0068FF55 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A85AB1E57058B0068FF55 /* AuthViewController.swift */; };
 		B50A85AF1E57058B0068FF55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50A85AD1E57058B0068FF55 /* Main.storyboard */; };
 		B50A85B11E57058B0068FF55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50A85B01E57058B0068FF55 /* Assets.xcassets */; };
 		B50A85B41E57058B0068FF55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50A85B21E57058B0068FF55 /* LaunchScreen.storyboard */; };
 		B50A85BC1E570B190068FF55 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B50A85BB1E570B190068FF55 /* GoogleService-Info.plist */; };
+		B50A85C01E572D9D0068FF55 /* ClassTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A85BF1E572D9D0068FF55 /* ClassTableViewController.swift */; };
+		B50A85C41E57342E0068FF55 /* CreateChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A85C31E57342E0068FF55 /* CreateChannelCell.swift */; };
+		B583A4D21E57615D007E6694 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B583A4D11E57615D007E6694 /* Channel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,12 +25,15 @@
 		92C047FD9A09FF0ABC659714 /* Pods-WeHaveNoJob-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeHaveNoJob-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeHaveNoJob-iOS/Pods-WeHaveNoJob-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		B50A85A61E57058B0068FF55 /* WeHaveNoJob-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WeHaveNoJob-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B50A85A91E57058B0068FF55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B50A85AB1E57058B0068FF55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B50A85AB1E57058B0068FF55 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		B50A85AE1E57058B0068FF55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B50A85B01E57058B0068FF55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B50A85B31E57058B0068FF55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B50A85B51E57058B0068FF55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B50A85BB1E570B190068FF55 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B50A85BF1E572D9D0068FF55 /* ClassTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassTableViewController.swift; sourceTree = "<group>"; };
+		B50A85C31E57342E0068FF55 /* CreateChannelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateChannelCell.swift; sourceTree = "<group>"; };
+		B583A4D11E57615D007E6694 /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,15 +77,50 @@
 		B50A85A81E57058B0068FF55 /* WeHaveNoJob-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				B50A85A91E57058B0068FF55 /* AppDelegate.swift */,
-				B50A85AB1E57058B0068FF55 /* ViewController.swift */,
-				B50A85AD1E57058B0068FF55 /* Main.storyboard */,
+				B583A4CD1E575DFA007E6694 /* Model */,
+				B583A4CE1E575E07007E6694 /* Controller */,
+				B583A4CF1E575E1B007E6694 /* Layout */,
+				B583A4D01E575E4A007E6694 /* Supporting Files */,
 				B50A85B01E57058B0068FF55 /* Assets.xcassets */,
-				B50A85B21E57058B0068FF55 /* LaunchScreen.storyboard */,
-				B50A85BB1E570B190068FF55 /* GoogleService-Info.plist */,
-				B50A85B51E57058B0068FF55 /* Info.plist */,
 			);
 			path = "WeHaveNoJob-iOS";
+			sourceTree = "<group>";
+		};
+		B583A4CD1E575DFA007E6694 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B583A4D11E57615D007E6694 /* Channel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B583A4CE1E575E07007E6694 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B50A85AB1E57058B0068FF55 /* AuthViewController.swift */,
+				B50A85BF1E572D9D0068FF55 /* ClassTableViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B583A4CF1E575E1B007E6694 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				B50A85B21E57058B0068FF55 /* LaunchScreen.storyboard */,
+				B50A85AD1E57058B0068FF55 /* Main.storyboard */,
+				B50A85C31E57342E0068FF55 /* CreateChannelCell.swift */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+		B583A4D01E575E4A007E6694 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B50A85BB1E570B190068FF55 /* GoogleService-Info.plist */,
+				B50A85B51E57058B0068FF55 /* Info.plist */,
+				B50A85A91E57058B0068FF55 /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		D6E2D5771D122D23C90611BC /* Pods */ = {
@@ -126,6 +167,7 @@
 				TargetAttributes = {
 					B50A85A51E57058B0068FF55 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K557UV74SU;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -215,7 +257,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B50A85AC1E57058B0068FF55 /* ViewController.swift in Sources */,
+				B50A85C01E572D9D0068FF55 /* ClassTableViewController.swift in Sources */,
+				B583A4D21E57615D007E6694 /* Channel.swift in Sources */,
+				B50A85C41E57342E0068FF55 /* CreateChannelCell.swift in Sources */,
+				B50A85AC1E57058B0068FF55 /* AuthViewController.swift in Sources */,
 				B50A85AA1E57058B0068FF55 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +383,7 @@
 			baseConfigurationReference = 92C047FD9A09FF0ABC659714 /* Pods-WeHaveNoJob-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K557UV74SU;
 				INFOPLIST_FILE = "WeHaveNoJob-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.minjaeJo.WeHaveNoJob-iOS";
@@ -351,6 +397,7 @@
 			baseConfigurationReference = 407C985EADF6173B43CA32DF /* Pods-WeHaveNoJob-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K557UV74SU;
 				INFOPLIST_FILE = "WeHaveNoJob-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.minjaeJo.WeHaveNoJob-iOS";
