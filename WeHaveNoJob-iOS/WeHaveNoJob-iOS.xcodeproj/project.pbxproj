@@ -7,86 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B50A85811E56E8040068FF55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A85801E56E8040068FF55 /* AppDelegate.swift */; };
-		B50A85831E56E8040068FF55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A85821E56E8040068FF55 /* ViewController.swift */; };
-		B50A85861E56E8040068FF55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50A85841E56E8040068FF55 /* Main.storyboard */; };
-		B50A85881E56E8040068FF55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50A85871E56E8040068FF55 /* Assets.xcassets */; };
-		B50A858B1E56E8040068FF55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50A85891E56E8040068FF55 /* LaunchScreen.storyboard */; };
-		B50A85931E56F74B0068FF55 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B50A85921E56F74B0068FF55 /* GoogleService-Info.plist */; };
-		BCEAF703F3B4B8DD05BCB13D /* Pods_WeHaveNoJob_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9112372721CFF5E783C9F6F6 /* Pods_WeHaveNoJob_iOS.framework */; };
+		B50A85AA1E57058B0068FF55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A85A91E57058B0068FF55 /* AppDelegate.swift */; };
+		B50A85AC1E57058B0068FF55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A85AB1E57058B0068FF55 /* ViewController.swift */; };
+		B50A85AF1E57058B0068FF55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50A85AD1E57058B0068FF55 /* Main.storyboard */; };
+		B50A85B11E57058B0068FF55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50A85B01E57058B0068FF55 /* Assets.xcassets */; };
+		B50A85B41E57058B0068FF55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50A85B21E57058B0068FF55 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		68FFB61438CFE4C38CCB6CD2 /* Pods-WeHaveNoJob-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeHaveNoJob-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeHaveNoJob-iOS/Pods-WeHaveNoJob-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		9112372721CFF5E783C9F6F6 /* Pods_WeHaveNoJob_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeHaveNoJob_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B50A857D1E56E8040068FF55 /* WeHaveNoJob-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WeHaveNoJob-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B50A85801E56E8040068FF55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B50A85821E56E8040068FF55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B50A85851E56E8040068FF55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B50A85871E56E8040068FF55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B50A858A1E56E8040068FF55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B50A858C1E56E8040068FF55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B50A85921E56F74B0068FF55 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		B6D7527481D48F8C849C355C /* Pods-WeHaveNoJob-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeHaveNoJob-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeHaveNoJob-iOS/Pods-WeHaveNoJob-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B50A85A61E57058B0068FF55 /* WeHaveNoJob-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WeHaveNoJob-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50A85A91E57058B0068FF55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B50A85AB1E57058B0068FF55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B50A85AE1E57058B0068FF55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B50A85B01E57058B0068FF55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B50A85B31E57058B0068FF55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B50A85B51E57058B0068FF55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B50A857A1E56E8040068FF55 /* Frameworks */ = {
+		B50A85A31E57058B0068FF55 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCEAF703F3B4B8DD05BCB13D /* Pods_WeHaveNoJob_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		21F0A3AF84AC7A9CAF93BE94 /* Pods */ = {
+		B50A859D1E57058B0068FF55 = {
 			isa = PBXGroup;
 			children = (
-				B6D7527481D48F8C849C355C /* Pods-WeHaveNoJob-iOS.debug.xcconfig */,
-				68FFB61438CFE4C38CCB6CD2 /* Pods-WeHaveNoJob-iOS.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		4B2305062AA90F90AAE2362C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9112372721CFF5E783C9F6F6 /* Pods_WeHaveNoJob_iOS.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B50A85741E56E8040068FF55 = {
-			isa = PBXGroup;
-			children = (
-				B50A857F1E56E8040068FF55 /* WeHaveNoJob-iOS */,
-				B50A857E1E56E8040068FF55 /* Products */,
-				21F0A3AF84AC7A9CAF93BE94 /* Pods */,
-				4B2305062AA90F90AAE2362C /* Frameworks */,
+				B50A85A81E57058B0068FF55 /* WeHaveNoJob-iOS */,
+				B50A85A71E57058B0068FF55 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B50A857E1E56E8040068FF55 /* Products */ = {
+		B50A85A71E57058B0068FF55 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B50A857D1E56E8040068FF55 /* WeHaveNoJob-iOS.app */,
+				B50A85A61E57058B0068FF55 /* WeHaveNoJob-iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B50A857F1E56E8040068FF55 /* WeHaveNoJob-iOS */ = {
+		B50A85A81E57058B0068FF55 /* WeHaveNoJob-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				B50A85801E56E8040068FF55 /* AppDelegate.swift */,
-				B50A85821E56E8040068FF55 /* ViewController.swift */,
-				B50A85841E56E8040068FF55 /* Main.storyboard */,
-				B50A85871E56E8040068FF55 /* Assets.xcassets */,
-				B50A85921E56F74B0068FF55 /* GoogleService-Info.plist */,
-				B50A85891E56E8040068FF55 /* LaunchScreen.storyboard */,
-				B50A858C1E56E8040068FF55 /* Info.plist */,
+				B50A85A91E57058B0068FF55 /* AppDelegate.swift */,
+				B50A85AB1E57058B0068FF55 /* ViewController.swift */,
+				B50A85AD1E57058B0068FF55 /* Main.storyboard */,
+				B50A85B01E57058B0068FF55 /* Assets.xcassets */,
+				B50A85B21E57058B0068FF55 /* LaunchScreen.storyboard */,
+				B50A85B51E57058B0068FF55 /* Info.plist */,
 			);
 			path = "WeHaveNoJob-iOS";
 			sourceTree = "<group>";
@@ -94,16 +67,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B50A857C1E56E8040068FF55 /* WeHaveNoJob-iOS */ = {
+		B50A85A51E57058B0068FF55 /* WeHaveNoJob-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B50A858F1E56E8040068FF55 /* Build configuration list for PBXNativeTarget "WeHaveNoJob-iOS" */;
+			buildConfigurationList = B50A85B81E57058B0068FF55 /* Build configuration list for PBXNativeTarget "WeHaveNoJob-iOS" */;
 			buildPhases = (
-				B77EC588CF1C8F11991F28F5 /* [CP] Check Pods Manifest.lock */,
-				B50A85791E56E8040068FF55 /* Sources */,
-				B50A857A1E56E8040068FF55 /* Frameworks */,
-				B50A857B1E56E8040068FF55 /* Resources */,
-				7A1A5716C59ACF407AD05513 /* [CP] Embed Pods Frameworks */,
-				D0A247CBA6837F93646CECB3 /* [CP] Copy Pods Resources */,
+				B50A85A21E57058B0068FF55 /* Sources */,
+				B50A85A31E57058B0068FF55 /* Frameworks */,
+				B50A85A41E57058B0068FF55 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -111,26 +81,26 @@
 			);
 			name = "WeHaveNoJob-iOS";
 			productName = "WeHaveNoJob-iOS";
-			productReference = B50A857D1E56E8040068FF55 /* WeHaveNoJob-iOS.app */;
+			productReference = B50A85A61E57058B0068FF55 /* WeHaveNoJob-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B50A85751E56E8040068FF55 /* Project object */ = {
+		B50A859E1E57058B0068FF55 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "  minjae";
 				TargetAttributes = {
-					B50A857C1E56E8040068FF55 = {
+					B50A85A51E57058B0068FF55 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = B50A85781E56E8040068FF55 /* Build configuration list for PBXProject "WeHaveNoJob-iOS" */;
+			buildConfigurationList = B50A85A11E57058B0068FF55 /* Build configuration list for PBXProject "WeHaveNoJob-iOS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -138,103 +108,54 @@
 				en,
 				Base,
 			);
-			mainGroup = B50A85741E56E8040068FF55;
-			productRefGroup = B50A857E1E56E8040068FF55 /* Products */;
+			mainGroup = B50A859D1E57058B0068FF55;
+			productRefGroup = B50A85A71E57058B0068FF55 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B50A857C1E56E8040068FF55 /* WeHaveNoJob-iOS */,
+				B50A85A51E57058B0068FF55 /* WeHaveNoJob-iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B50A857B1E56E8040068FF55 /* Resources */ = {
+		B50A85A41E57058B0068FF55 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B50A858B1E56E8040068FF55 /* LaunchScreen.storyboard in Resources */,
-				B50A85931E56F74B0068FF55 /* GoogleService-Info.plist in Resources */,
-				B50A85881E56E8040068FF55 /* Assets.xcassets in Resources */,
-				B50A85861E56E8040068FF55 /* Main.storyboard in Resources */,
+				B50A85B41E57058B0068FF55 /* LaunchScreen.storyboard in Resources */,
+				B50A85B11E57058B0068FF55 /* Assets.xcassets in Resources */,
+				B50A85AF1E57058B0068FF55 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		7A1A5716C59ACF407AD05513 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeHaveNoJob-iOS/Pods-WeHaveNoJob-iOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B77EC588CF1C8F11991F28F5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		D0A247CBA6837F93646CECB3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeHaveNoJob-iOS/Pods-WeHaveNoJob-iOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		B50A85791E56E8040068FF55 /* Sources */ = {
+		B50A85A21E57058B0068FF55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B50A85831E56E8040068FF55 /* ViewController.swift in Sources */,
-				B50A85811E56E8040068FF55 /* AppDelegate.swift in Sources */,
+				B50A85AC1E57058B0068FF55 /* ViewController.swift in Sources */,
+				B50A85AA1E57058B0068FF55 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B50A85841E56E8040068FF55 /* Main.storyboard */ = {
+		B50A85AD1E57058B0068FF55 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B50A85851E56E8040068FF55 /* Base */,
+				B50A85AE1E57058B0068FF55 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B50A85891E56E8040068FF55 /* LaunchScreen.storyboard */ = {
+		B50A85B21E57058B0068FF55 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B50A858A1E56E8040068FF55 /* Base */,
+				B50A85B31E57058B0068FF55 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -242,7 +163,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B50A858D1E56E8040068FF55 /* Debug */ = {
+		B50A85B61E57058B0068FF55 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -291,7 +212,7 @@
 			};
 			name = Debug;
 		};
-		B50A858E1E56E8040068FF55 /* Release */ = {
+		B50A85B71E57058B0068FF55 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -333,9 +254,8 @@
 			};
 			name = Release;
 		};
-		B50A85901E56E8040068FF55 /* Debug */ = {
+		B50A85B91E57058B0068FF55 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6D7527481D48F8C849C355C /* Pods-WeHaveNoJob-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "WeHaveNoJob-iOS/Info.plist";
@@ -346,9 +266,8 @@
 			};
 			name = Debug;
 		};
-		B50A85911E56E8040068FF55 /* Release */ = {
+		B50A85BA1E57058B0068FF55 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68FFB61438CFE4C38CCB6CD2 /* Pods-WeHaveNoJob-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "WeHaveNoJob-iOS/Info.plist";
@@ -362,24 +281,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B50A85781E56E8040068FF55 /* Build configuration list for PBXProject "WeHaveNoJob-iOS" */ = {
+		B50A85A11E57058B0068FF55 /* Build configuration list for PBXProject "WeHaveNoJob-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B50A858D1E56E8040068FF55 /* Debug */,
-				B50A858E1E56E8040068FF55 /* Release */,
+				B50A85B61E57058B0068FF55 /* Debug */,
+				B50A85B71E57058B0068FF55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B50A858F1E56E8040068FF55 /* Build configuration list for PBXNativeTarget "WeHaveNoJob-iOS" */ = {
+		B50A85B81E57058B0068FF55 /* Build configuration list for PBXNativeTarget "WeHaveNoJob-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B50A85901E56E8040068FF55 /* Debug */,
-				B50A85911E56E8040068FF55 /* Release */,
+				B50A85B91E57058B0068FF55 /* Debug */,
+				B50A85BA1E57058B0068FF55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B50A85751E56E8040068FF55 /* Project object */;
+	rootObject = B50A859E1E57058B0068FF55 /* Project object */;
 }
