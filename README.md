@@ -17,15 +17,11 @@
 
 그래서 이번에 우리가 만들어 볼 서비스는 ‘익명 질문’ 서비스입니다. 학생들은 익명이라는 가면을 쓴 체, 수업관련하여 궁금했던 질문을 실시간으로 교수에게 보낼 수 있습니다. 교수는 받은 질문에 대해 즉각적으로 피드백을 주거나 또는 쉬는시간에 모아 다음 수업시간때 정리해서 모두에게 공유해줄 수 있는 역할을 합니다.
 
-## ios 개발 과정
-- facebook auth
-  - install CocoaPods
-    - pod 'Firebase/Core'
-    - pod 'FacebookCore'
-    - pod 'FacebookLogin'
-    - pod 'FacebookShare'
-  - 
+## 주요 기능
 
-1. Firebase로 facebook 인증
-2. Firebase RealtimeDB 이용-> 채팅시스템
-3. Firebase
+- anonymous auth
+- RealtimeDB (iOS와 Android 플랫폼 간 상호 호환 가능)
+- 교수와 학생간의 실시간 채팅 기능 구현
+
+## Git주소
+https://github.com/GDGKC-FirebasedHackathon/WeHaveNoJob

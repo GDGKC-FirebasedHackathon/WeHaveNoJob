@@ -136,9 +136,7 @@ final class ChatViewController: JSQMessagesViewController {
         let messageQuery = messageRef.queryLimited(toLast:25)// Start by creating a query that limits the synchronization to the last 25 messages
         
         newMessageRefHandle = messageQuery.observe(.childAdded, with: { (snapshot) -> Void in
-            
             let messageData = snapshot.value as! Dictionary<String, String> //Extract the messageData from the snapshot
-            
             if let id = messageData["senderId"] as String!, let name = messageData["senderName"] as String!, let text = messageData["text"] as String!, text.characters.count > 0 {
                 
                 self.addMessage(withId: id, name: name, text: text) //to add the new message to the data source.
