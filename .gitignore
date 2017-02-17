@@ -1,0 +1,12 @@
+*.iml
+/WeHaveNoJob-Android/.gitignore
+/WeHaveNoJob-Android/.gradle
+/WeHaveNoJob-Android/local.properties
+/WeHaveNoJob-Android/.idea/workspace.xml
+/WeHaveNoJob-Android/.idea/libraries
+/WeHaveNoJob-Android/.idea/
+/WeHaveNoJob-Android/.DS_Store
+/.DS_Store
+/WeHaveNoJob-Android/build
+/WeHaveNoJob-Android/captures
+/WeHaveNoJob/.externalNativeBuild
