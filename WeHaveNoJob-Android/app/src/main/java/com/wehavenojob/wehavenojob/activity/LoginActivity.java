@@ -41,6 +41,8 @@ public class LoginActivity extends BaseActivity {
         mAnonymousLoginButton.setOnClickListener(v -> {
             startActivity(new Intent(LoginActivity.this, MainActivity.class));
             finish();
+
+            // TODO -> 집가서 Google Play Service 버전으로 인화여 Auth가 되지 않는 문제 해결할 것
 //            signInAnonymously();
 //            mAuth.signOut();
 //            databaseReference.child("class").child(mClassNumber.getText().toString()).addListenerForSingleValueEvent(new ValueEventListener() {
