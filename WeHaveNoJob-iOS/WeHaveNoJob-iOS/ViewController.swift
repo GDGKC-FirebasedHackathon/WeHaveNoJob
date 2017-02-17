@@ -7,24 +7,36 @@
 //
 
 import UIKit
-import FacebookLogin
+import Firebase
+import FirebaseAuth
+
 
 class ViewController: UIViewController {
 
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let loginButton = LoginButton(readPermissions: [ .publicProfile ])
-        loginButton.center = view.center
-        
-        view.addSubview(loginButton)
-        loginButton = LoginButton(readPermissions: [ .PublicProfile, .Email, .UserFriends ])
-        
+
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    @IBAction func anonButton(_ sender: Any) {
+
+        FIRAuth.auth()?.signInAnonymously(){ (user, error) in if error != nil {
+            print(error!)
+            }
+            print("User logged in Anonymously with uid : " + (user?.uid)!)
+            // ...
+        }
+    }
+
+    @IBAction func signOut(_ sender: Any) {
+        print("signOut")
+        try! FIRAuth.auth()?.signOut()
     }
 
 
