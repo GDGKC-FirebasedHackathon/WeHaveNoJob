@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "149292824417",
+    "firebase_url": "https://wehavenojob-b4973.firebaseio.com",
+    "project_id": "wehavenojob-b4973",
+    "storage_bucket": "wehavenojob-b4973.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149292824417:android:779abd1c13ff1ac0",
+        "android_client_info": {
+          "package_name": "com.wehavenojob.wehavenojob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149292824417-ve0v00kqnabh3enlr9ulie6gvsnqhg6s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wehavenojob.wehavenojob",
+            "certificate_hash": "C7CEE62E1F2C3543FE13E1368C9F8FFF81B513DA"
+          }
+        },
+        {
+          "client_id": "149292824417-ldt15lp2kc3vjthq2di2mgrt2tkoh1fp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUvDA6WyDCGSelnSqaKa_5NbZflXmXMZM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149292824417-ldt15lp2kc3vjthq2di2mgrt2tkoh1fp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
