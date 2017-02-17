@@ -39,13 +39,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "WeHaveNoJob-iOS/ClassTableViewController.swift"
-            timestampString = "509046594.648275"
+            filePath = "WeHaveNoJob-iOS/ChatViewController.swift"
+            timestampString = "509060190.344474"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
-            landmarkName = "tableView(_:cellForRowAt:)"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "observeMessages()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -55,13 +55,173 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "WeHaveNoJob-iOS/ClassTableViewController.swift"
-            timestampString = "509046594.648275"
+            filePath = "WeHaveNoJob-iOS/ChatViewController.swift"
+            timestampString = "509060190.344474"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
-            landmarkName = "tableView(_:cellForRowAt:)"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "observeMessages()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeHaveNoJob_iOS.ChatViewController.(observeMessages in _533893F4B8019C7848DE963B5B7B0E64) () -&gt; ()"
+                  moduleName = "WeHaveNoJob-iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/minjae/git/WeHaveNoJob/WeHaveNoJob-iOS/WeHaveNoJob-iOS/ChatViewController.swift"
+                  timestampString = "509060237.491147"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "357">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeHaveNoJob_iOS.ChatViewController.((observeMessages in _533893F4B8019C7848DE963B5B7B0E64) () -&gt; ()).(closure #1)"
+                  moduleName = "WeHaveNoJob-iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/minjae/git/WeHaveNoJob/WeHaveNoJob-iOS/WeHaveNoJob-iOS/ChatViewController.swift"
+                  timestampString = "509060237.497315"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "27">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeHaveNoJob-iOS/ChatViewController.swift"
+            timestampString = "509060190.344474"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "observeMessages()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeHaveNoJob-iOS/ChatViewController.swift"
+            timestampString = "509060190.344474"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "observeMessages()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeHaveNoJob_iOS.ChatViewController.((observeMessages in _533893F4B8019C7848DE963B5B7B0E64) () -&gt; ()).(closure #1)"
+                  moduleName = "WeHaveNoJob-iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/minjae/git/WeHaveNoJob/WeHaveNoJob-iOS/WeHaveNoJob-iOS/ChatViewController.swift"
+                  timestampString = "509060237.507545"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "145"
+                  endingLineNumber = "145"
+                  offsetFromSymbolStart = "1318">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeHaveNoJob_iOS.ChatViewController.((observeMessages in _533893F4B8019C7848DE963B5B7B0E64) () -&gt; ()).(closure #1)"
+                  moduleName = "WeHaveNoJob-iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/minjae/git/WeHaveNoJob/WeHaveNoJob-iOS/WeHaveNoJob-iOS/ChatViewController.swift"
+                  timestampString = "509060237.51032"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "145"
+                  endingLineNumber = "145"
+                  offsetFromSymbolStart = "1531">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeHaveNoJob-iOS/ChatViewController.swift"
+            timestampString = "509060190.344474"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
+            landmarkName = "observeMessages()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeHaveNoJob-iOS/ChatViewController.swift"
+            timestampString = "509060190.344474"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeHaveNoJob-iOS/ChatViewController.swift"
+            timestampString = "509060190.344474"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeHaveNoJob-iOS/ChatViewController.swift"
+            timestampString = "509060190.344474"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
