@@ -17,6 +17,7 @@
 		B50A85C01E572D9D0068FF55 /* ClassTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A85BF1E572D9D0068FF55 /* ClassTableViewController.swift */; };
 		B50A85C41E57342E0068FF55 /* CreateChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A85C31E57342E0068FF55 /* CreateChannelCell.swift */; };
 		B583A4D21E57615D007E6694 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B583A4D11E57615D007E6694 /* Channel.swift */; };
+		B583A4D41E5774B6007E6694 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B583A4D31E5774B5007E6694 /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		B50A85BF1E572D9D0068FF55 /* ClassTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassTableViewController.swift; sourceTree = "<group>"; };
 		B50A85C31E57342E0068FF55 /* CreateChannelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateChannelCell.swift; sourceTree = "<group>"; };
 		B583A4D11E57615D007E6694 /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		B583A4D31E5774B5007E6694 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				B50A85AB1E57058B0068FF55 /* AuthViewController.swift */,
 				B50A85BF1E572D9D0068FF55 /* ClassTableViewController.swift */,
+				B583A4D31E5774B5007E6694 /* ChatViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				B583A4D21E57615D007E6694 /* Channel.swift in Sources */,
 				B50A85C41E57342E0068FF55 /* CreateChannelCell.swift in Sources */,
 				B50A85AC1E57058B0068FF55 /* AuthViewController.swift in Sources */,
+				B583A4D41E5774B6007E6694 /* ChatViewController.swift in Sources */,
 				B50A85AA1E57058B0068FF55 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

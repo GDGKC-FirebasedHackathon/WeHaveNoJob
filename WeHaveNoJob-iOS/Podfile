@@ -9,7 +9,7 @@ target 'WeHaveNoJob-iOS' do
 	pod 'FacebookLogin'
 	pod 'FacebookShare' 
 	pod 'Firebase/Auth'
-	pod 'JSQMessagesViewController'
+	pod 'JSQMessagesViewController', '~> 7.3'
 	pod 'Firebase/Database'
 	pod 'Firebase/Storage'
   # Pods for WeHaveNoJob-iOS

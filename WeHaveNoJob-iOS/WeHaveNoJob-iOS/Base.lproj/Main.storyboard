@@ -85,7 +85,7 @@
                                 <rect key="frame" x="0.0" y="28" width="414" height="40"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Q2I-GK-nuR" id="iXD-dP-P9v">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="39"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="39.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Create new Channel" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vb9-sR-wRX">
@@ -115,7 +115,7 @@
                                 <rect key="frame" x="0.0" y="68" width="414" height="40"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1zW-dd-bJX" id="Ner-d6-INg">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="39"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="39.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4gv-cE-pzo">
@@ -140,10 +140,10 @@
             </objects>
             <point key="canvasLocation" x="1884.057971014493" y="-71.739130434782609"/>
         </scene>
-        <!--View Controller-->
+        <!--Chat View Controller-->
         <scene sceneID="hxI-my-JBN">
             <objects>
-                <viewController id="EDL-5Z-zsl" sceneMemberID="viewController">
+                <viewController id="EDL-5Z-zsl" customClass="ChatViewController" customModule="WeHaveNoJob_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Z8D-uk-iAP"/>
                         <viewControllerLayoutGuide type="bottom" id="mDI-Hb-yUa"/>

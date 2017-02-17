@@ -82,7 +82,7 @@ DEPENDENCIES:
   - Firebase/Core
   - Firebase/Database
   - Firebase/Storage
-  - JSQMessagesViewController
+  - JSQMessagesViewController (~> 7.3)
 
 SPEC CHECKSUMS:
   Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
@@ -106,6 +106,6 @@ SPEC CHECKSUMS:
   JSQMessagesViewController: 39fed975e3c9f8eba7292071e29eeb541d105e66
   JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
 
-PODFILE CHECKSUM: 9e69cfde1e0e881a054c33e7e962bc56a69546f4
+PODFILE CHECKSUM: d476d0a499c2f25eafd0a4fb22964e879b207578
 
 COCOAPODS: 1.2.0

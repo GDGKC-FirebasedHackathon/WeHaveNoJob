@@ -10,33 +10,69 @@ import UIKit
 import Firebase
 
 class ClassTableViewController: UITableViewController {
-    
+    // enum
     enum Section: Int {
         case createNewChannelSection = 0
         case currentChannelsSection
     }
     
-    var senderDisplayName: String?
-    var newChannelTextField: UITextField?
-    private var channels: [Channel] = []
+    var senderDisplayName: String? // 앞 뷰인 auth에서 날라온 익명 붙여짐
+    var newChannelTextField: UITextField? // 새로운 텍스트 필드 생성
+    private var channels: [Channel] = [] // 채널을 담는 배열
 
-    private lazy var channelRef: FIRDatabaseReference = FIRDatabase.database().reference().child("channels")
-    private var channelRefHandle: FIRDatabaseHandle?
-    
+    private lazy var channelRef: FIRDatabaseReference = FIRDatabase.database().reference().child("channels")// will be used to store a reference to the list of channels in the database
+    private var channelRefHandle: FIRDatabaseHandle?// will hold a handle to the reference so you can remove it later on
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        title = "RW RIC"
+        title = "Class"
         observeChannels()
+        
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        channels.append(Channel(id: "lecture1", name: "lecture1"))
+        channels.append(Channel(id: "lecture2", name: "lecture2"))
+        channels.append(Channel(id: "lecture3", name: "lecture3"))
+        self.tableView.reloadData()
     }
     
     deinit {
         if let refHandle = channelRefHandle {
             channelRef.removeObserver(withHandle: refHandle)
         }
-
-        
     }
+    
+    // MARK: Navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        super.prepare(for: segue, sender: sender)
+        
+        if let channel = sender as? Channel {
+            let chatVc = segue.destination as! ChatViewController
+        
+            chatVc.senderDisplayName = senderDisplayName
+            chatVc.channel = channel
+            chatVc.channelRef = channelRef.child(channel.id)
+        }
+    }
+    
+    // MARK: Firebase related methods
+    private func observeChannels() {
+        // Use the observe method to listen for new
+        // channels being written to the Firebase DB
+        channelRefHandle = channelRef.observe(.childAdded, with: { (snapshot) -> Void in
+            let channelData = snapshot.value as! Dictionary<String, AnyObject>
+            let id = snapshot.key
+            if let name = channelData["className"] as! String!, name.characters.count > 0 {
+                self.channels.append(Channel(id: id, name: name))
+                self.tableView.reloadData()
+            } else {
+                print("Error! Could not decode channel data")
+            }
+        })
+    }
+    
     // MARK: UITableViewDelegate
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -80,31 +116,15 @@ class ClassTableViewController: UITableViewController {
         }
     }
     
-    // MARK: Firebase related methods
-    private func observeChannels() {
-        // Use the observe method to listen for new
-        // channels being written to the Firebase DB
-        channelRefHandle = channelRef.observe(.childAdded, with: { (snapshot) -> Void in
-            let channelData = snapshot.value as! Dictionary<String, AnyObject>
-            let id = snapshot.key
-            if let name = channelData["name"] as! String!, name.characters.count > 0 {
-                self.channels.append(Channel(id: id, name: name))
-                self.tableView.reloadData()
-            } else {
-                print("Error! Could not decode channel data")
-            }
-        })
-    }
-    
+    // make class Channel
     @IBAction func createChannel(_ sender: Any) {
         if let name = newChannelTextField?.text {
             let newChannelRef = channelRef.childByAutoId()
             let channelItem = [ 
-                "name": name
+                "className": name
             ]
             newChannelRef.setValue(channelItem)
         }
     }
     
-
 }
