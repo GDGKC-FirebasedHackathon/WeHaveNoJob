@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4407350A9571067FB983A58B /* Pods_WeHaveNoJob_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1144B04AF17391FAC1373932 /* Pods_WeHaveNoJob_iOS.framework */; };
 		B50A85AA1E57058B0068FF55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A85A91E57058B0068FF55 /* AppDelegate.swift */; };
 		B50A85AC1E57058B0068FF55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A85AB1E57058B0068FF55 /* ViewController.swift */; };
 		B50A85AF1E57058B0068FF55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50A85AD1E57058B0068FF55 /* Main.storyboard */; };
 		B50A85B11E57058B0068FF55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50A85B01E57058B0068FF55 /* Assets.xcassets */; };
 		B50A85B41E57058B0068FF55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50A85B21E57058B0068FF55 /* LaunchScreen.storyboard */; };
+		B50A85BC1E570B190068FF55 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B50A85BB1E570B190068FF55 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1144B04AF17391FAC1373932 /* Pods_WeHaveNoJob_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeHaveNoJob_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		407C985EADF6173B43CA32DF /* Pods-WeHaveNoJob-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeHaveNoJob-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeHaveNoJob-iOS/Pods-WeHaveNoJob-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		92C047FD9A09FF0ABC659714 /* Pods-WeHaveNoJob-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeHaveNoJob-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeHaveNoJob-iOS/Pods-WeHaveNoJob-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		B50A85A61E57058B0068FF55 /* WeHaveNoJob-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WeHaveNoJob-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B50A85A91E57058B0068FF55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B50A85AB1E57058B0068FF55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		B50A85B01E57058B0068FF55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B50A85B31E57058B0068FF55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B50A85B51E57058B0068FF55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B50A85BB1E570B190068FF55 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4407350A9571067FB983A58B /* Pods_WeHaveNoJob_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13BD9CA963D59F3EE80AA556 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1144B04AF17391FAC1373932 /* Pods_WeHaveNoJob_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B50A859D1E57058B0068FF55 = {
 			isa = PBXGroup;
 			children = (
 				B50A85A81E57058B0068FF55 /* WeHaveNoJob-iOS */,
 				B50A85A71E57058B0068FF55 /* Products */,
+				D6E2D5771D122D23C90611BC /* Pods */,
+				13BD9CA963D59F3EE80AA556 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,9 +76,19 @@
 				B50A85AD1E57058B0068FF55 /* Main.storyboard */,
 				B50A85B01E57058B0068FF55 /* Assets.xcassets */,
 				B50A85B21E57058B0068FF55 /* LaunchScreen.storyboard */,
+				B50A85BB1E570B190068FF55 /* GoogleService-Info.plist */,
 				B50A85B51E57058B0068FF55 /* Info.plist */,
 			);
 			path = "WeHaveNoJob-iOS";
+			sourceTree = "<group>";
+		};
+		D6E2D5771D122D23C90611BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92C047FD9A09FF0ABC659714 /* Pods-WeHaveNoJob-iOS.debug.xcconfig */,
+				407C985EADF6173B43CA32DF /* Pods-WeHaveNoJob-iOS.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B50A85B81E57058B0068FF55 /* Build configuration list for PBXNativeTarget "WeHaveNoJob-iOS" */;
 			buildPhases = (
+				E94BEC20B6AAC8991D309CDE /* [CP] Check Pods Manifest.lock */,
 				B50A85A21E57058B0068FF55 /* Sources */,
 				B50A85A31E57058B0068FF55 /* Frameworks */,
 				B50A85A41E57058B0068FF55 /* Resources */,
+				381EC920E76F104292950357 /* [CP] Embed Pods Frameworks */,
+				92A46181FFAF6AE604B63D5C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,12 +154,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				B50A85B41E57058B0068FF55 /* LaunchScreen.storyboard in Resources */,
+				B50A85BC1E570B190068FF55 /* GoogleService-Info.plist in Resources */,
 				B50A85B11E57058B0068FF55 /* Assets.xcassets in Resources */,
 				B50A85AF1E57058B0068FF55 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		381EC920E76F104292950357 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeHaveNoJob-iOS/Pods-WeHaveNoJob-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92A46181FFAF6AE604B63D5C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeHaveNoJob-iOS/Pods-WeHaveNoJob-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E94BEC20B6AAC8991D309CDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B50A85A21E57058B0068FF55 /* Sources */ = {
@@ -256,6 +335,7 @@
 		};
 		B50A85B91E57058B0068FF55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92C047FD9A09FF0ABC659714 /* Pods-WeHaveNoJob-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "WeHaveNoJob-iOS/Info.plist";
@@ -268,6 +348,7 @@
 		};
 		B50A85BA1E57058B0068FF55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 407C985EADF6173B43CA32DF /* Pods-WeHaveNoJob-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "WeHaveNoJob-iOS/Info.plist";
@@ -297,6 +378,7 @@
 				B50A85BA1E57058B0068FF55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
